@@ -1,0 +1,7 @@
+[user]
+	name = Emre Camasuvi
+	email = emre@camasuvi.net
+[color]
+	ui = auto
+[push]
+	autoSetupRemote = true
