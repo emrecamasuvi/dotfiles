@@ -6,8 +6,11 @@
 xcode-select --install
 ```
 
+2. Generate and add new SSH key
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-2. Clone repo into new hidden directory.
+
+3. Clone repo into new hidden directory.
 
 ```zsh
 # Use SSH (if set up)...
@@ -18,7 +21,7 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 ```
 
 
-3. Create symlinks in the Home directory to the real files in the repo.
+4. Create symlinks in the Home directory to the real files in the repo.
 
 ```zsh
 # There are better and less manual ways to do this;
@@ -31,7 +34,7 @@ ln -s ~/.dotfiles/.config/ ~/.config
 ```
 
 
-4. Install Homebrew, followed by the software listed in the Brewfile.
+5. Install Homebrew, followed by the software listed in the Brewfile.
 
 ```zsh
 # These could also be in an install script.
@@ -44,6 +47,9 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 # ...or move to the directory first.
 cd ~/.dotfiles && brew bundle
+
+# make fish the new default
+chsh -s /usr/local/bin/fish
 ```
 
 
