@@ -14,10 +14,10 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 ```zsh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone git@github.com:emrecamasuvi/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/emrecamasuvi/dotfiles.git ~/.dotfiles
 ```
 
 
