@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
+status --is-interactive; and rbenv init - fish | source
 
 cd ~/Projects
 
@@ -26,3 +26,6 @@ alias gri='git rebase -i'
 alias gk='gitk --follow '
 alias lol='git log --oneline --decorate --all --graph'
 alias removeorig="find . -name '*.orig' -delete"
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+

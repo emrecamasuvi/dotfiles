@@ -1,24 +1,34 @@
 tap "homebrew/bundle"
+# Core application library for C
+brew "glib"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Extendable version manager with support for Ruby, Node.js, Erlang & more
-brew "asdf"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # GNU compiler collection
 brew "gcc"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Manage Procfile-based applications
+brew "foreman"
 # GNU awk utility
 brew "gawk"
 # Distributed revision control system
 brew "git"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Platform built on V8 to build network applications
 brew "node"
 # Object-relational database system
 brew "postgresql@14"
+# Ruby version manager
+brew "rbenv"
 # Image processing library
 brew "vips"
 # Internet file retriever
